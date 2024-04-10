@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://github.com/R3ygoski/snap-homepage-dropdown-vue)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/snap-homepage-made-with-vue-and-sass-1sZxgoZQIk)
 - Live Site URL: [Github](https://r3ygoski.github.io/snap-homepage-dropdown-vue/)
 
 ## My process
