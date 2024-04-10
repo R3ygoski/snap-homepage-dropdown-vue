@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://github.com/R3ygoski/snap-homepage-dropdown-vue)
+- Live Site URL: [Github](https://r3ygoski.github.io/snap-homepage-dropdown-vue/)
 
 ## My process
 
@@ -34,6 +34,8 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Sass Mixins
+- Keyframes
 - [Vue 3](https://vuejs.org/) - JS Framework
 - [Vite](https://vitejs.dev/) - Building Tool
 - [Sass](https://sass-lang.com/) - CSS Preprocessor
