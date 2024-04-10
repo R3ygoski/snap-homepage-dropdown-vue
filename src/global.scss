@@ -1,0 +1,20 @@
+@use './scss/abstract/var' as v;
+@use './scss/components/header';
+@use './scss/components/main';
+@use './scss/components/featureDropdown';
+@use './scss/components/companyDropdown';
+@use './scss/components/clientList';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+#app {
+  background: v.$primary-color;
+}

@@ -1,0 +1,24 @@
+.client-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.35rem;
+    list-style: none;
+    li {
+        img {
+            width: 75%;
+        }
+    }
+}
+
+@media (min-width: 1024px){
+    .client-list {
+        gap: 0 2.5rem;
+        margin-top: 7rem;
+        li {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
