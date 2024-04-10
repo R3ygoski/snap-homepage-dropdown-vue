@@ -1,4 +1,12 @@
 @use '../abstract/var' as v;
+@use '../abstract/mixins' as mx;
+
+.show-features-dropdown {
+    display: block;
+}
+.hide-features-dropdown {
+    display: none;
+}
 
 .features {
     p {
@@ -38,6 +46,15 @@
 }
 
 @media (min-width: 1024px) {
+
+    .show-features-dropdown {
+        @include mx.showDropDownAnimation()
+    }
+    .hide-features-dropdown {
+        display: block;
+        @include mx.hideDropDownAnimation()
+    }
+
     .features {
         display: flex;
         align-items: center;

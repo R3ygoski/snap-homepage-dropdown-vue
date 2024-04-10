@@ -30,7 +30,7 @@ onMounted(() => {
 <template>
   <header class="header">
     <img class="header__logo" src="../../assets/images/logo.svg" alt="Snap Logo" />
-    <nav :class="isMenuOpen || isDesktop ? 'header__navbar' : 'header__navbar--hidden'">
+    <nav :class="isMenuOpen || isDesktop ? 'header__navbar move-left' : 'header__navbar--hidden'">
 
       <ul class="header__navbar-list">
         <!-- Features -->

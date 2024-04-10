@@ -30,7 +30,7 @@
     <li class="features" @:click="toggleDropdown">
         <p v-if="dropdownIsOpen">Features<img src="../../assets/icon/icon-arrow-up.svg" alt="Up Arrow" /></p>
         <p v-else>Features<img src="../../assets/icon/icon-arrow-down.svg" alt="Down Arrow" /></p>
-        <div v-if="dropdownIsOpen" class="features__dropdown">
+        <div :class="`features__dropdown ${dropdownIsOpen?'show-features-dropdown':'hide-features-dropdown'}`">
             <ul class="features__dropdown-list">
                 <li class="features__dropdown-list-item" v-for="listItem in featuresListItem" :key="listItem.id">
                     <a :href="listItem.link"><img :src="listItem.img" :alt="listItem.alt" />{{ listItem.name }}</a>

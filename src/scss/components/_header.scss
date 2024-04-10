@@ -1,5 +1,30 @@
 @use '../abstract/var' as v;
 
+// Animation
+@keyframes move-left {
+    from {
+        right: -100%;
+        opacity: .2;
+    }
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+.move-left {
+    animation: move-left 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+.close-menu {
+    position: fixed;
+    right: 19px;
+    top: 19px;
+}
+.hidden {
+    display: none;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -118,13 +143,4 @@
             }
         }
     } 
-}
-
-.close-menu {
-    position: fixed;
-    right: 19px;
-    top: 19px;
-}
-.hidden {
-    display: none;
 }

@@ -1,4 +1,12 @@
 @use '../abstract/var' as v;
+@use '../abstract/mixins' as mx;
+
+.show-company-dropdown {
+    display: block;
+}
+.hide-company-dropdown {
+    display: none;
+}
 
 .company {
     p {
@@ -32,6 +40,15 @@
 }
 
 @media (min-width: 1024px) {
+
+    .show-company-dropdown {
+        @include mx.showDropDownAnimation()
+    }
+    .hide-company-dropdown {
+        display: block;
+        @include mx.hideDropDownAnimation()
+    }
+
     .company {
         display: flex;
         align-items: center;
