@@ -18,7 +18,6 @@ const updateWindow = () => {
 
 const toggleSidebar = () => {
   isMenuOpen.value = !isMenuOpen.value
-  console.log(isMenuOpen.value)
 }
 
 onMounted(() => {
